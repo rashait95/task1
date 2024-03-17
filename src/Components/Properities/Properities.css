@@ -1,0 +1,52 @@
+.prop-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+.prop-section .prop-header{
+    
+    width: max-content;
+    margin: 0 auto;
+    margin-left: 100px;
+    margin-top: 10%;
+    text-align: center;
+    display: flex;
+   
+    
+}
+.prop-section .prop-header h6{
+    margin-right: 200px;
+}
+.prop-section .prop-header h2{
+    font-size: 50px;
+    margin-left: 70px;
+    
+
+}
+
+.prop-section .cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 10px;
+}
+
+
+.prop-section .cards .cardsline1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 10px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .prop-section{
+        width: 100%;
+       margin-left: 10px;
+        margin: 0 auto;
+    }
+}
